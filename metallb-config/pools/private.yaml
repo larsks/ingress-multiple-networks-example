@@ -1,0 +1,8 @@
+kind: IPAddressPool
+apiVersion: metallb.io/v1beta1
+metadata:
+  name: private
+spec:
+  addresses:
+    - 172.17.17.200-172.17.17.210
+  autoAssign: false
